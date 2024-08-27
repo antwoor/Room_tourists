@@ -1,0 +1,2 @@
+Invoking command in '/workspace/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/workspace/install/openslam_gmapping
+Invoked command in '/workspace/build/openslam_gmapping' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/workspace/install/openslam_gmapping

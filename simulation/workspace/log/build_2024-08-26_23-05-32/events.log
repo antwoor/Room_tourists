@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.001293] (openslam_gmapping) JobQueued: {'identifier': 'openslam_gmapping', 'dependencies': OrderedDict()}
+[0.002241] (star) JobQueued: {'identifier': 'star', 'dependencies': OrderedDict()}
+[0.002341] (survey) JobQueued: {'identifier': 'survey', 'dependencies': OrderedDict()}
+[0.002470] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/workspace/install/openslam_gmapping')])}
+[0.002739] (openslam_gmapping) JobStarted: {'identifier': 'openslam_gmapping'}
+[0.018882] (star) JobStarted: {'identifier': 'star'}
+[0.031503] (survey) JobStarted: {'identifier': 'survey'}
+[0.046743] (openslam_gmapping) JobProgress: {'identifier': 'openslam_gmapping', 'progress': 'cmake'}
+[0.048994] (openslam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/ros2_slam_gmapping/openslam_gmapping', '-DCMAKE_INSTALL_PREFIX=/workspace/install/openslam_gmapping'], 'cwd': '/workspace/build/openslam_gmapping', 'env': OrderedDict([('WS', '/workspace'), ('HOSTNAME', 'Nitro'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/root'), ('OLDPWD', '/workspace/src/ros2_slam_gmapping/openslam_gmapping'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '231'), ('AMENT_PREFIX_PATH', '/workspace/install/survey:/workspace/install/star:/opt/ros/humble'), ('PWD', '/workspace/build/openslam_gmapping'), ('PYTHONPATH', '/workspace/install/star/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/survey:/workspace/install/star:/opt/ros/humble')]), 'shell': False}
+[0.099639] (-) TimerEvent: {}
+[0.199966] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.400928] (-) TimerEvent: {}
+[0.432357] (openslam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.433150] (openslam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.433412] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.433494] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.433570] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.433645] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.433718] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.433791] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.433862] (survey) JobProgress: {'identifier': 'survey', 'progress': 'cmake'}
+[0.434697] (survey) JobProgress: {'identifier': 'survey', 'progress': 'build'}
+[0.435649] (survey) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/survey', '--', '-j8', '-l8'], 'cwd': '/workspace/build/survey', 'env': OrderedDict([('WS', '/workspace'), ('HOSTNAME', 'Nitro'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/root'), ('OLDPWD', '/workspace/src/ros2_slam_gmapping/openslam_gmapping'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '231'), ('AMENT_PREFIX_PATH', '/workspace/install/survey:/workspace/install/star:/opt/ros/humble'), ('PWD', '/workspace/build/survey'), ('PYTHONPATH', '/workspace/install/star/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/survey:/workspace/install/star:/opt/ros/humble')]), 'shell': False}
+[0.496095] (survey) CommandEnded: {'returncode': 0}
+[0.501104] (-) TimerEvent: {}
+[0.534885] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.536155] (survey) JobProgress: {'identifier': 'survey', 'progress': 'install'}
+[0.547364] (openslam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.547836] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.548596] (openslam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.551400] (survey) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/survey'], 'cwd': '/workspace/build/survey', 'env': OrderedDict([('WS', '/workspace'), ('HOSTNAME', 'Nitro'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64'), ('HOME', '/root'), ('OLDPWD', '/workspace/src/ros2_slam_gmapping/openslam_gmapping'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics,compat32,utility'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '231'), ('AMENT_PREFIX_PATH', '/workspace/install/survey:/workspace/install/star:/opt/ros/humble'), ('PWD', '/workspace/build/survey'), ('PYTHONPATH', '/workspace/install/star/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/survey:/workspace/install/star:/opt/ros/humble')]), 'shell': False}
+[0.552886] (openslam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.563336] (survey) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.563677] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models\n'}
+[0.563792] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg\n'}
+[0.563899] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg/model.config\n'}
+[0.563996] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg/wheel.dae\n'}
+[0.564124] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg/body.dae\n'}
+[0.564218] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg/textures\n'}
+[0.564421] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg/textures/stone_with_sand.jpg\n'}
+[0.565242] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/bereg/model.sdf\n'}
+[0.565438] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland\n'}
+[0.565526] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/ozyland.dae\n'}
+[0.565622] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/model.config\n'}
+[0.565704] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures\n'}
+[0.565812] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_8.png\n'}
+[0.565903] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_10.png\n'}
+[0.565985] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_1.png\n'}
+[0.566066] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_4.png\n'}
+[0.566247] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/sand_2.jpg\n'}
+[0.566322] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_12.png\n'}
+[0.566389] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_15.png\n'}
+[0.566454] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_13.png\n'}
+[0.566523] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_9.png\n'}
+[0.566606] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_3.png\n'}
+[0.566674] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_5.png\n'}
+[0.566738] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_2.png\n'}
+[0.566801] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_6.png\n'}
+[0.566866] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_11.png\n'}
+[0.566929] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_7.png\n'}
+[0.566993] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_14.png\n'}
+[0.567058] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/textures/building_2.png\n'}
+[0.567164] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/models/ozyland/model.sdf\n'}
+[0.567235] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/launch\n'}
+[0.567301] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/launch/ozyland.launch.py\n'}
+[0.567365] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/worlds\n'}
+[0.567429] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/worlds/ozyland.world\n'}
+[0.567494] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/ament_index/resource_index/package_run_dependencies/survey\n'}
+[0.567583] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/ament_index/resource_index/parent_prefix_path/survey\n'}
+[0.567649] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/environment/ament_prefix_path.sh\n'}
+[0.567726] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/environment/ament_prefix_path.dsv\n'}
+[0.567793] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/environment/path.sh\n'}
+[0.567858] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/environment/path.dsv\n'}
+[0.567922] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/local_setup.bash\n'}
+[0.567987] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/local_setup.sh\n'}
+[0.568051] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/local_setup.zsh\n'}
+[0.568161] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/local_setup.dsv\n'}
+[0.568231] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/package.dsv\n'}
+[0.568295] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/ament_index/resource_index/packages/survey\n'}
+[0.568471] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/cmake/surveyConfig.cmake\n'}
+[0.568553] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/cmake/surveyConfig-version.cmake\n'}
+[0.568634] (survey) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/survey/share/survey/package.xml\n'}
+[0.569510] (survey) CommandEnded: {'returncode': 0}
+[0.601255] (-) TimerEvent: {}
+[0.645888] (survey) JobEnded: {'identifier': 'survey', 'rc': 0}
+[0.701374] (-) TimerEvent: {}
+[0.801971] (-) TimerEvent: {}
+[0.846750] (openslam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.902117] (-) TimerEvent: {}
+[0.932456] (star) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/star', 'build', '--build-base', '/workspace/build/star/build', 'install', '--record', '/workspace/build/star/install.log', '--single-version-externally-managed'], 'cwd': '/workspace/src/star', 'env': {'WS': '/workspace', 'HOSTNAME': 'Nitro', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu:/usr/lib/i386-linux-gnu:/usr/local/nvidia/lib:/usr/local/nvidia/lib64', 'HOME': '/root', 'OLDPWD': '/workspace/src/ros2_slam_gmapping/openslam_gmapping', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'graphics,compat32,utility', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '231', 'AMENT_PREFIX_PATH': '/workspace/install/survey:/workspace/install/star:/opt/ros/humble', 'PWD': '/workspace/build/star', 'PYTHONPATH': '/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:/workspace/install/star/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/survey'}, 'shell': False}
+[1.002216] (-) TimerEvent: {}
+[1.035400] (openslam_gmapping) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):\n'}
+[1.035783] (openslam_gmapping) StderrLine: {'line': b"  ament_target_dependencies() the passed package name 'sensor_base' was not\n"}
+[1.036007] (openslam_gmapping) StderrLine: {'line': b'  found before\n'}
+[1.036327] (openslam_gmapping) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.036504] (openslam_gmapping) StderrLine: {'line': b'  sensor/sensor_range/CMakeLists.txt:3 (ament_target_dependencies)\n'}
+[1.036668] (openslam_gmapping) StderrLine: {'line': b'\n'}
+[1.036831] (openslam_gmapping) StderrLine: {'line': b'\x1b[0m\n'}
+[1.036993] (openslam_gmapping) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.037215] (openslam_gmapping) StdoutLine: {'line': b'See also "/workspace/build/openslam_gmapping/CMakeFiles/CMakeOutput.log".\n'}
+[1.043823] (openslam_gmapping) CommandEnded: {'returncode': 1}
+[1.082258] (openslam_gmapping) JobEnded: {'identifier': 'openslam_gmapping', 'rc': 1}
+[1.102411] (-) TimerEvent: {}
+[1.202992] (-) TimerEvent: {}
+[1.246759] (star) StdoutLine: {'line': b'running egg_info\n'}
+[1.247917] (star) StdoutLine: {'line': b'writing ../../build/star/star.egg-info/PKG-INFO\n'}
+[1.248265] (star) StdoutLine: {'line': b'writing dependency_links to ../../build/star/star.egg-info/dependency_links.txt\n'}
+[1.248530] (star) StdoutLine: {'line': b'writing entry points to ../../build/star/star.egg-info/entry_points.txt\n'}
+[1.248774] (star) StdoutLine: {'line': b'writing requirements to ../../build/star/star.egg-info/requires.txt\n'}
+[1.248990] (star) StdoutLine: {'line': b'writing top-level names to ../../build/star/star.egg-info/top_level.txt\n'}
+[1.251356] (star) StdoutLine: {'line': b"reading manifest file '../../build/star/star.egg-info/SOURCES.txt'\n"}
+[1.252446] (star) StdoutLine: {'line': b"writing manifest file '../../build/star/star.egg-info/SOURCES.txt'\n"}
+[1.252717] (star) StdoutLine: {'line': b'running build\n'}
+[1.252877] (star) StdoutLine: {'line': b'running build_py\n'}
+[1.253232] (star) StdoutLine: {'line': b'running install\n'}
+[1.253551] (star) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.253812] (star) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.254036] (star) StdoutLine: {'line': b'running install_lib\n'}
+[1.256062] (star) StdoutLine: {'line': b'running install_data\n'}
+[1.256739] (star) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.259150] (star) StdoutLine: {'line': b"removing '/workspace/install/star/lib/python3.10/site-packages/star-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.259792] (star) StdoutLine: {'line': b'Copying ../../build/star/star.egg-info to /workspace/install/star/lib/python3.10/site-packages/star-0.0.0-py3.10.egg-info\n'}
+[1.261207] (star) StdoutLine: {'line': b'running install_scripts\n'}
+[1.291169] (star) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/star/install.log'\n"}
+[1.303348] (-) TimerEvent: {}
+[1.350706] (star) JobEnded: {'identifier': 'star', 'rc': 'SIGINT'}
+[1.352229] (slam_gmapping) JobSkipped: {'identifier': 'slam_gmapping'}
+[1.352280] (-) EventReactorShutdown: {}

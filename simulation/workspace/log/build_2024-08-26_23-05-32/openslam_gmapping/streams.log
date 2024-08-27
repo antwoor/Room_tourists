@@ -1,0 +1,25 @@
+[0.050s] Invoking command in '/workspace/build/openslam_gmapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/workspace/install/openslam_gmapping
+[0.430s] -- The C compiler identification is GNU 11.4.0
+[0.431s] -- The CXX compiler identification is GNU 11.4.0
+[0.431s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.431s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.532s] -- Detecting CXX compiler ABI info - done
+[0.545s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.546s] -- Detecting CXX compile features - done
+[0.550s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.844s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.033s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.033s]   ament_target_dependencies() the passed package name 'sensor_base' was not
+[1.033s]   found before
+[1.034s] Call Stack (most recent call first):
+[1.034s]   sensor/sensor_range/CMakeLists.txt:3 (ament_target_dependencies)
+[1.034s] 
+[1.034s] [0m
+[1.034s] -- Configuring incomplete, errors occurred!
+[1.035s] See also "/workspace/build/openslam_gmapping/CMakeFiles/CMakeOutput.log".
+[1.041s] Invoked command in '/workspace/build/openslam_gmapping' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/ros2_slam_gmapping/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/workspace/install/openslam_gmapping

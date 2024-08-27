@@ -1,0 +1,73 @@
+[0.348s] Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/survey -DCMAKE_INSTALL_PREFIX=/workspace/install/survey
+[0.448s] -- The C compiler identification is GNU 11.4.0
+[0.541s] -- The CXX compiler identification is GNU 11.4.0
+[0.556s] -- Detecting C compiler ABI info
+[0.673s] -- Detecting C compiler ABI info - done
+[0.687s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.688s] -- Detecting C compile features
+[0.689s] -- Detecting C compile features - done
+[0.694s] -- Detecting CXX compiler ABI info
+[0.833s] -- Detecting CXX compiler ABI info - done
+[0.843s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.844s] -- Detecting CXX compile features
+[0.844s] -- Detecting CXX compile features - done
+[0.849s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.123s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.395s] -- Configuring done
+[1.398s] -- Generating done
+[1.399s] -- Build files have been written to: /workspace/build/survey
+[1.406s] Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/survey -DCMAKE_INSTALL_PREFIX=/workspace/install/survey
+[1.412s] Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --build /workspace/build/survey -- -j8 -l8
+[1.467s] Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --build /workspace/build/survey -- -j8 -l8
+[1.516s] Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --install /workspace/build/survey
+[1.526s] -- Install configuration: ""
+[1.526s] -- Installing: /workspace/install/survey/share/survey/models
+[1.526s] -- Installing: /workspace/install/survey/share/survey/models/bereg
+[1.526s] -- Installing: /workspace/install/survey/share/survey/models/bereg/model.config
+[1.526s] -- Installing: /workspace/install/survey/share/survey/models/bereg/wheel.dae
+[1.527s] -- Installing: /workspace/install/survey/share/survey/models/bereg/body.dae
+[1.527s] -- Installing: /workspace/install/survey/share/survey/models/bereg/textures
+[1.527s] -- Installing: /workspace/install/survey/share/survey/models/bereg/textures/stone_with_sand.jpg
+[1.528s] -- Installing: /workspace/install/survey/share/survey/models/bereg/model.sdf
+[1.528s] -- Installing: /workspace/install/survey/share/survey/models/ozyland
+[1.528s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/ozyland.dae
+[1.532s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/model.config
+[1.532s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures
+[1.532s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_8.png
+[1.533s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_10.png
+[1.535s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_1.png
+[1.536s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_4.png
+[1.538s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/sand_2.jpg
+[1.541s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_12.png
+[1.543s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_15.png
+[1.545s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_13.png
+[1.547s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_9.png
+[1.549s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_3.png
+[1.550s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_5.png
+[1.552s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_2.png
+[1.554s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_6.png
+[1.555s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_11.png
+[1.557s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_7.png
+[1.558s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_14.png
+[1.560s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/textures/building_2.png
+[1.563s] -- Installing: /workspace/install/survey/share/survey/models/ozyland/model.sdf
+[1.563s] -- Installing: /workspace/install/survey/share/survey/launch
+[1.563s] -- Installing: /workspace/install/survey/share/survey/launch/ozyland.launch.py
+[1.564s] -- Installing: /workspace/install/survey/share/survey/worlds
+[1.564s] -- Installing: /workspace/install/survey/share/survey/worlds/ozyland.world
+[1.564s] -- Installing: /workspace/install/survey/share/ament_index/resource_index/package_run_dependencies/survey
+[1.564s] -- Installing: /workspace/install/survey/share/ament_index/resource_index/parent_prefix_path/survey
+[1.564s] -- Installing: /workspace/install/survey/share/survey/environment/ament_prefix_path.sh
+[1.565s] -- Installing: /workspace/install/survey/share/survey/environment/ament_prefix_path.dsv
+[1.565s] -- Installing: /workspace/install/survey/share/survey/environment/path.sh
+[1.565s] -- Installing: /workspace/install/survey/share/survey/environment/path.dsv
+[1.565s] -- Installing: /workspace/install/survey/share/survey/local_setup.bash
+[1.565s] -- Installing: /workspace/install/survey/share/survey/local_setup.sh
+[1.565s] -- Installing: /workspace/install/survey/share/survey/local_setup.zsh
+[1.566s] -- Installing: /workspace/install/survey/share/survey/local_setup.dsv
+[1.566s] -- Installing: /workspace/install/survey/share/survey/package.dsv
+[1.566s] -- Installing: /workspace/install/survey/share/ament_index/resource_index/packages/survey
+[1.566s] -- Installing: /workspace/install/survey/share/survey/cmake/surveyConfig.cmake
+[1.566s] -- Installing: /workspace/install/survey/share/survey/cmake/surveyConfig-version.cmake
+[1.567s] -- Installing: /workspace/install/survey/share/survey/package.xml
+[1.570s] Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --install /workspace/build/survey

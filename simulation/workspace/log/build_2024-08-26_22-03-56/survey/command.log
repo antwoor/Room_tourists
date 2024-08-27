@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/survey -DCMAKE_INSTALL_PREFIX=/workspace/install/survey
+Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/survey -DCMAKE_INSTALL_PREFIX=/workspace/install/survey
+Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --build /workspace/build/survey -- -j8 -l8
+Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --build /workspace/build/survey -- -j8 -l8
+Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --install /workspace/build/survey
+Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --install /workspace/build/survey

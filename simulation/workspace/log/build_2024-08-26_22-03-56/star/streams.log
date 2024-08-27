@@ -1,0 +1,41 @@
+[0.848s] Invoking command in '/workspace/src/star': PYTHONPATH=/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/star build --build-base /workspace/build/star/build install --record /workspace/build/star/install.log --single-version-externally-managed
+[1.148s] running egg_info
+[1.149s] creating ../../build/star/star.egg-info
+[1.149s] writing ../../build/star/star.egg-info/PKG-INFO
+[1.150s] writing dependency_links to ../../build/star/star.egg-info/dependency_links.txt
+[1.150s] writing entry points to ../../build/star/star.egg-info/entry_points.txt
+[1.150s] writing requirements to ../../build/star/star.egg-info/requires.txt
+[1.150s] writing top-level names to ../../build/star/star.egg-info/top_level.txt
+[1.151s] writing manifest file '../../build/star/star.egg-info/SOURCES.txt'
+[1.153s] reading manifest file '../../build/star/star.egg-info/SOURCES.txt'
+[1.154s] writing manifest file '../../build/star/star.egg-info/SOURCES.txt'
+[1.154s] running build
+[1.154s] running build_py
+[1.154s] creating /workspace/build/star/build
+[1.155s] creating /workspace/build/star/build/lib
+[1.155s] creating /workspace/build/star/build/lib/star
+[1.155s] copying star/__init__.py -> /workspace/build/star/build/lib/star
+[1.155s] copying star/qr_decoder.py -> /workspace/build/star/build/lib/star
+[1.155s] copying star/navigation.py -> /workspace/build/star/build/lib/star
+[1.155s] running install
+[1.156s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.156s]   warnings.warn(
+[1.156s] running install_lib
+[1.156s] creating /workspace/install/star/lib/python3.10/site-packages/star
+[1.157s] copying /workspace/build/star/build/lib/star/__init__.py -> /workspace/install/star/lib/python3.10/site-packages/star
+[1.157s] copying /workspace/build/star/build/lib/star/qr_decoder.py -> /workspace/install/star/lib/python3.10/site-packages/star
+[1.158s] copying /workspace/build/star/build/lib/star/navigation.py -> /workspace/install/star/lib/python3.10/site-packages/star
+[1.158s] byte-compiling /workspace/install/star/lib/python3.10/site-packages/star/__init__.py to __init__.cpython-310.pyc
+[1.158s] byte-compiling /workspace/install/star/lib/python3.10/site-packages/star/qr_decoder.py to qr_decoder.cpython-310.pyc
+[1.159s] byte-compiling /workspace/install/star/lib/python3.10/site-packages/star/navigation.py to navigation.cpython-310.pyc
+[1.159s] running install_data
+[1.160s] creating /workspace/install/star/share/ament_index
+[1.160s] creating /workspace/install/star/share/ament_index/resource_index
+[1.160s] creating /workspace/install/star/share/ament_index/resource_index/packages
+[1.160s] copying resource/star -> /workspace/install/star/share/ament_index/resource_index/packages
+[1.161s] copying package.xml -> /workspace/install/star/share/star
+[1.161s] running install_egg_info
+[1.163s] Copying ../../build/star/star.egg-info to /workspace/install/star/lib/python3.10/site-packages/star-0.0.0-py3.10.egg-info
+[1.164s] running install_scripts
+[1.194s] writing list of installed files to '/workspace/build/star/install.log'
+[1.251s] Invoked command in '/workspace/src/star' returned '0': PYTHONPATH=/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/star build --build-base /workspace/build/star/build install --record /workspace/build/star/install.log --single-version-externally-managed

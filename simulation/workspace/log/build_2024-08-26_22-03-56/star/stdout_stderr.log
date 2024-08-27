@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/star/star.egg-info
+writing ../../build/star/star.egg-info/PKG-INFO
+writing dependency_links to ../../build/star/star.egg-info/dependency_links.txt
+writing entry points to ../../build/star/star.egg-info/entry_points.txt
+writing requirements to ../../build/star/star.egg-info/requires.txt
+writing top-level names to ../../build/star/star.egg-info/top_level.txt
+writing manifest file '../../build/star/star.egg-info/SOURCES.txt'
+reading manifest file '../../build/star/star.egg-info/SOURCES.txt'
+writing manifest file '../../build/star/star.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/build/star/build
+creating /workspace/build/star/build/lib
+creating /workspace/build/star/build/lib/star
+copying star/__init__.py -> /workspace/build/star/build/lib/star
+copying star/qr_decoder.py -> /workspace/build/star/build/lib/star
+copying star/navigation.py -> /workspace/build/star/build/lib/star
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /workspace/install/star/lib/python3.10/site-packages/star
+copying /workspace/build/star/build/lib/star/__init__.py -> /workspace/install/star/lib/python3.10/site-packages/star
+copying /workspace/build/star/build/lib/star/qr_decoder.py -> /workspace/install/star/lib/python3.10/site-packages/star
+copying /workspace/build/star/build/lib/star/navigation.py -> /workspace/install/star/lib/python3.10/site-packages/star
+byte-compiling /workspace/install/star/lib/python3.10/site-packages/star/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspace/install/star/lib/python3.10/site-packages/star/qr_decoder.py to qr_decoder.cpython-310.pyc
+byte-compiling /workspace/install/star/lib/python3.10/site-packages/star/navigation.py to navigation.cpython-310.pyc
+running install_data
+creating /workspace/install/star/share/ament_index
+creating /workspace/install/star/share/ament_index/resource_index
+creating /workspace/install/star/share/ament_index/resource_index/packages
+copying resource/star -> /workspace/install/star/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/install/star/share/star
+running install_egg_info
+Copying ../../build/star/star.egg-info to /workspace/install/star/lib/python3.10/site-packages/star-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspace/build/star/install.log'
