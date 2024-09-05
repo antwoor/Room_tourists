@@ -1,0 +1,55 @@
+[0.326s] Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/survey -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/survey
+[0.360s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.566s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.726s] -- Configuring done
+[0.740s] -- Generating done
+[0.744s] -- Build files have been written to: /workspace/build/survey
+[0.754s] Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake /workspace/src/survey -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/survey
+[0.758s] Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --build /workspace/build/survey -- -j8 -l8
+[0.831s] Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --build /workspace/build/survey -- -j8 -l8
+[0.877s] Invoking command in '/workspace/build/survey': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --install /workspace/build/survey
+[0.887s] -- Install configuration: ""
+[0.888s] -- Execute custom install script
+[0.889s] -- Symlinking: /workspace/install/survey/share/survey/models/bereg/body.dae
+[0.903s] -- Symlinking: /workspace/install/survey/share/survey/models/bereg/model.config
+[0.919s] -- Symlinking: /workspace/install/survey/share/survey/models/bereg/model.sdf
+[0.933s] -- Symlinking: /workspace/install/survey/share/survey/models/bereg/textures/stone_with_sand.jpg
+[0.946s] -- Symlinking: /workspace/install/survey/share/survey/models/bereg/wheel.dae
+[0.959s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/model.config
+[0.972s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/model.sdf
+[0.985s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/ozyland.dae
+[0.998s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/building_2.png
+[1.010s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_1.png
+[1.022s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_10.png
+[1.034s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_11.png
+[1.046s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_12.png
+[1.059s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_13.png
+[1.081s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_14.png
+[1.093s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_15.png
+[1.105s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_2.png
+[1.118s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_3.png
+[1.130s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_4.png
+[1.143s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_5.png
+[1.157s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_6.png
+[1.171s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_7.png
+[1.185s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_8.png
+[1.199s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_9.png
+[1.213s] -- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/sand_2.jpg
+[1.225s] -- Symlinking: /workspace/install/survey/share/survey/launch/ozyland.launch.py
+[1.238s] -- Symlinking: /workspace/install/survey/share/survey/worlds/ozyland.world
+[1.252s] -- Symlinking: /workspace/install/survey/share/ament_index/resource_index/package_run_dependencies/survey
+[1.267s] -- Symlinking: /workspace/install/survey/share/ament_index/resource_index/parent_prefix_path/survey
+[1.282s] -- Symlinking: /workspace/install/survey/share/survey/environment/ament_prefix_path.sh
+[1.295s] -- Symlinking: /workspace/install/survey/share/survey/environment/ament_prefix_path.dsv
+[1.309s] -- Symlinking: /workspace/install/survey/share/survey/environment/path.sh
+[1.322s] -- Symlinking: /workspace/install/survey/share/survey/environment/path.dsv
+[1.335s] -- Symlinking: /workspace/install/survey/share/survey/local_setup.bash
+[1.348s] -- Symlinking: /workspace/install/survey/share/survey/local_setup.sh
+[1.360s] -- Symlinking: /workspace/install/survey/share/survey/local_setup.zsh
+[1.372s] -- Symlinking: /workspace/install/survey/share/survey/local_setup.dsv
+[1.385s] -- Symlinking: /workspace/install/survey/share/survey/package.dsv
+[1.402s] -- Symlinking: /workspace/install/survey/share/ament_index/resource_index/packages/survey
+[1.415s] -- Symlinking: /workspace/install/survey/share/survey/cmake/surveyConfig.cmake
+[1.437s] -- Symlinking: /workspace/install/survey/share/survey/cmake/surveyConfig-version.cmake
+[1.453s] -- Symlinking: /workspace/install/survey/share/survey/package.xml
+[1.478s] Invoked command in '/workspace/build/survey' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspace/install/star:/opt/ros/humble /usr/bin/cmake --install /workspace/build/survey

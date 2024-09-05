@@ -1,0 +1,20 @@
+[0.978s] Invoking command in '/workspace/build/star': PYTHONPATH=/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspace/build/star/build --no-deps install_data
+[1.339s] running develop
+[1.339s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.339s]   warnings.warn(
+[1.340s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.341s]   warnings.warn(
+[1.535s] running egg_info
+[1.535s] writing star.egg-info/PKG-INFO
+[1.535s] writing dependency_links to star.egg-info/dependency_links.txt
+[1.536s] writing entry points to star.egg-info/entry_points.txt
+[1.536s] writing requirements to star.egg-info/requires.txt
+[1.536s] writing top-level names to star.egg-info/top_level.txt
+[1.540s] reading manifest file 'star.egg-info/SOURCES.txt'
+[1.541s] writing manifest file 'star.egg-info/SOURCES.txt'
+[1.543s] running build_ext
+[1.543s] Creating /workspace/install/star/lib/python3.10/site-packages/star.egg-link (link to .)
+[1.545s] 
+[1.545s] Installed /workspace/build/star
+[1.545s] running install_data
+[1.618s] Invoked command in '/workspace/build/star' returned '0': PYTHONPATH=/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspace/build/star/build --no-deps install_data

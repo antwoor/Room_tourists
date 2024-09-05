@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/build/survey
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /workspace/install/survey/share/survey/models/bereg/body.dae
+-- Symlinking: /workspace/install/survey/share/survey/models/bereg/model.config
+-- Symlinking: /workspace/install/survey/share/survey/models/bereg/model.sdf
+-- Symlinking: /workspace/install/survey/share/survey/models/bereg/textures/stone_with_sand.jpg
+-- Symlinking: /workspace/install/survey/share/survey/models/bereg/wheel.dae
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/model.config
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/model.sdf
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/ozyland.dae
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/building_2.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_1.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_10.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_11.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_12.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_13.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_14.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_15.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_2.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_3.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_4.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_5.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_6.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_7.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_8.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/paneglif_9.png
+-- Symlinking: /workspace/install/survey/share/survey/models/ozyland/textures/sand_2.jpg
+-- Symlinking: /workspace/install/survey/share/survey/launch/ozyland.launch.py
+-- Symlinking: /workspace/install/survey/share/survey/worlds/ozyland.world
+-- Symlinking: /workspace/install/survey/share/ament_index/resource_index/package_run_dependencies/survey
+-- Symlinking: /workspace/install/survey/share/ament_index/resource_index/parent_prefix_path/survey
+-- Symlinking: /workspace/install/survey/share/survey/environment/ament_prefix_path.sh
+-- Symlinking: /workspace/install/survey/share/survey/environment/ament_prefix_path.dsv
+-- Symlinking: /workspace/install/survey/share/survey/environment/path.sh
+-- Symlinking: /workspace/install/survey/share/survey/environment/path.dsv
+-- Symlinking: /workspace/install/survey/share/survey/local_setup.bash
+-- Symlinking: /workspace/install/survey/share/survey/local_setup.sh
+-- Symlinking: /workspace/install/survey/share/survey/local_setup.zsh
+-- Symlinking: /workspace/install/survey/share/survey/local_setup.dsv
+-- Symlinking: /workspace/install/survey/share/survey/package.dsv
+-- Symlinking: /workspace/install/survey/share/ament_index/resource_index/packages/survey
+-- Symlinking: /workspace/install/survey/share/survey/cmake/surveyConfig.cmake
+-- Symlinking: /workspace/install/survey/share/survey/cmake/surveyConfig-version.cmake
+-- Symlinking: /workspace/install/survey/share/survey/package.xml

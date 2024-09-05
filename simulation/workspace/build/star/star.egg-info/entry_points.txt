@@ -1,3 +1,4 @@
 [console_scripts]
-
+navigation = star.navigation:main
+qr_decoder = star.qr_decoder:main
 

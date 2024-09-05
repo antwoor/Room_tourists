@@ -1,0 +1,2 @@
+Invoking command in '/workspace/build/star': PYTHONPATH=/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspace/build/star/build --no-deps install_data
+Invoked command in '/workspace/build/star' returned '0': PYTHONPATH=/workspace/build/star/prefix_override:/workspace/install/star/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /workspace/build/star/build --no-deps install_data
