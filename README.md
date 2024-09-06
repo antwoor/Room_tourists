@@ -163,3 +163,4 @@
         ros2 run teleop_twist_keyboard teleop_twist_keyboard /cmd_vel:=/commands/velocity
 
      В случае, если вы можете управлять роботом, то подготовку к работе с Turtlebot 2 можно считать оконченой.
+# Room_tourists
